@@ -12,24 +12,76 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>
       Frontend Mentor | Huddle landing page with single introductory section
     </title>
-
-    <!-- No dude en eliminar estos estilos o personalizarlos en su propia hoja de estilo 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    Build The Community Your Fans Will Love Huddle re-imagines the way we build
-    communities. You have a voice, but so does your audience. Create connections
-    with your users as you engage in genuine discussion. Register
+    <header class="header">
+      <div class="wrapper">
+        <figure class="logo">
+          <img src="images/logo.svg" alt="LOGO" />
+        </figure>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="wrapper">
+        <div class="hero-container">
+          <div class="hero-image-container">
+            <img src="images/illustration-mockups.svg" alt="" />
+          </div>
+
+          <div class="hero-description">
+            <div class="hero-description-title">
+              <h1>Build The Community</h1>
+              <h1>Your Fans Will Love</h1>
+            </div>
+
+            <article class="hero-description-text">
+              <p>
+                Huddle re-imagines the way we build communities. You have a
+                voice, but so does your audience. Create connections with your
+                users as you engage in genuine discussion.
+              </p>
+            </article>
+
+            <div class="button">
+              <button class="register-button">Register</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <nav class="media-container">
+          <a href="/" class="facebook">
+            <ion-icon name="logo-facebook"></ion-icon
+          ></a>
+          <a href="/" class="twitter">
+            <ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a href="/" class="instagram">
+            <ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </nav>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   </body>
 </html>
